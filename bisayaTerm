@@ -82,11 +82,11 @@ public class AgriBisayaDicionary {
        data[45]= "Plantasyon Dako nga uma nga adunay daghang tanom parehas nga klase";
 
        //MEMEBER: Chloe Jane M. Montañez
-       data[41] = "Ani: Mga produkto nga nakuha gikan sa uma";
-       data[42] = "Sagbot: Mga tanom nga dili gusto sa mag-uuma sa uma";
-       data[43] = "Pugas: Proseso sa pagbutang og binhi sa yuta";
-       data[44] = "Traktora: Makina nga gigamit sa pagdaro ug pagtrabaho sa uma";
-
+       data[46] = "Ani: Mga produkto nga nakuha gikan sa uma";
+       data[47] = "Sagbot: Mga tanom nga dili gusto sa mag-uuma sa uma";
+       data[48] = "Pugas: Proseso sa pagbutang og binhi sa yuta";
+       data[49] = "Traktora: Makina nga gigamit sa pagdaro ug pagtrabaho sa uma";
+       data[50] = "Asarol: Himan nga gigamit sa pagbungkal ug paglimpyo sa yuta";
 
 }
 

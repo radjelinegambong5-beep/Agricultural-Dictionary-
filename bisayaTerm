@@ -20,8 +20,8 @@ public class AgriBisayaDicionary {
         // This code loads the first set of agriculture terms into the array.
 
 
-    public void agriTerm1 () {
-agriDictionary[0] = "Humay: Tanum nga ginagamit para sa bugas";
+    public void agriTerm () {
+        agriDictionary[0] = "Humay: Tanum nga ginagamit para sa bugas";
         agriDictionary[1] = "Mais: Tanum nga ginagamit para sa pagkaon";
         agriDictionary[2] = "Baboy: Hayop nga ginabuhat para sa karne";
         agriDictionary[3] = "Kanding: Hayop nga ginabuhat para sa gatas ug karne";

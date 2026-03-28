@@ -68,11 +68,11 @@ public class AgriBisayaDicionary {
         ‎agriDictionary[35] = "Pag-ani: Proseso sa pagkuha og mga produkto gikan sa tanom o hayop";
 } 
         // MEMBER: Charity S. Sisles
-       agriDictionary[36]= "Liso:  binhi nga itanom aron motubo ang tanom";
-       agriDictionary[37]= "Mag-uuma: tawo nga nagtrabaho sa uma";
-       agriDictionary[38]= "Tanom:  tanum nga gipatubo sa uma";
-       agriDictionary[39]= "Patubig:  paghatag ug tubig sa mga tanom";
-       agriDictionary[40]= "Uma:  lugar diin nagtanim ug nag-uma ang tawo";
+       data[36]= "Liso:  binhi nga itanom aron motubo ang tanom";
+       data[37]= "Mag-uuma: tawo nga nagtrabaho sa uma";
+       data[38]= "Tanom:  tanum nga gipatubo sa uma";
+       data[39]= "Patubig:  paghatag ug tubig sa mga tanom";
+       data[40]= "Uma:  lugar diin nagtanim ug nag-uma ang tawo";
 
     // MEMBER: Jessa B.Torion
     // This method runs the program and allows user to search for a term

@@ -13,24 +13,24 @@ public class AgriBisayaDicionary {
     // This code declares the 1D array that stores all Bisaya agriculture terms.
     
     
-    private String[] agriDictionary = new String[50]
+    private String[] data = new String[50]
       // This code declares the counter variable to track the number of entries.
-       int count = 30;
+       int count = 50;
        
         // This code loads the first set of agriculture terms into the array.
 
 
-    public void agriTerm () {
-        agriDictionary[0] = "Humay: Tanum nga ginagamit para sa bugas";
-        agriDictionary[1] = "Mais: Tanum nga ginagamit para sa pagkaon";
-        agriDictionary[2] = "Baboy: Hayop nga ginabuhat para sa karne";
-        agriDictionary[3] = "Kanding: Hayop nga ginabuhat para sa gatas ug karne";
-        agriDictionary[4] = "Manok: Hayop nga ginabuhat para sa itlog ug karne";
-        agriDictionary[5] = "Saging: Tanum nga nagahatag og bunga nga saging";
-        agriDictionary[6] = "Mangga: Tanum nga nagahatag og bunga nga mangga";
-        agriDictionary[7] = "Niyog: Tanum nga nagahatag og lubi ug lana";
-        agriDictionary[8] = "Palay: Humay nga wala pa gyud hinimo og bugas";
-        agriDictionary[9] = "Isda: Hayop nga nagpuyo sa tubig ug ginakaon";
+    public void loadData () {
+        data[0] = "Humay: Tanum nga ginagamit para sa bugas";
+        data[1] = "Mais: Tanum nga ginagamit para sa pagkaon";
+        data[2] = "Baboy: Hayop nga ginabuhat para sa karne";
+        data[3] = "Kanding: Hayop nga ginabuhat para sa gatas ug karne";
+        data[4] = "Manok: Hayop nga ginabuhat para sa itlog ug karne";
+        data[5] = "Saging: Tanum nga nagahatag og bunga nga saging";
+        data[6] = "Mangga: Tanum nga nagahatag og bunga nga mangga";
+        data[7] = "Niyog: Tanum nga nagahatag og lubi ug lana";
+        data[8] = "Palay: Humay nga wala pa gyud hinimo og bugas";
+        data[9] = "Isda: Hayop nga nagpuyo sa tubig ug ginakaon";
           // MEMBER: Janah Nicole M. Tayag
         agriDictionary[10]= "Bungkal: Proseso sa pag andam sa yuta";
         agriDictionary[11]= "Patubig: Paghatag ug tubig para ma buhi ang tanom";

@@ -25,70 +25,66 @@ public class BisayaAgriDicionary {
         data[2] = "Baboy: Hayop nga ginabuhat para sa karne";
         data[3] = "Kanding: Hayop nga ginabuhat para sa gatas ug karne";
         data[4] = "Manok: Hayop nga ginabuhat para sa itlog ug karne";
-        data[5] = "Saging: Tanum nga nagahatag og bunga nga saging";
-        data[6] = "Mangga: Tanum nga nagahatag og bunga nga mangga";
-        data[7] = "Niyog: Tanum nga nagahatag og lubi ug lana";
-        data[8] = "Palay: Humay nga wala pa gyud hinimo og bugas";
-        data[9] = "Isda: Hayop nga nagpuyo sa tubig ug ginakaon";
+        
           // MEMBER: Janah Nicole M. Tayag
-        data[10]= "Bungkal: Proseso sa pag andam sa yuta";
-        data[11]= "Patubig: Paghatag ug tubig para ma buhi ang tanom";
-        data[12]= "Pestidsidyo: Kemikal na pang patay sa mga peste o insekto";
-        data[13]= "Peste: Mga insekto nga naga kaon o guba ug mga tanom";
-        data[14]= "Tubig: Gina dilig sa tanom para ma buhi ug mo tubo";
+        data[5]= "Bungkal: Proseso sa pag andam sa yuta";
+        data[6]= "Patubig: Paghatag ug tubig para ma buhi ang tanom";
+        data[7]= "Pestidsidyo: Kemikal na pang patay sa mga peste o insekto";
+        data[8]= "Peste: Mga insekto nga naga kaon o guba ug mga tanom";
+        data[9]= "Tubig: Gina dilig sa tanom para ma buhi ug mo tubo";
 
         // MEMBER: Kimberly L. Mas 
-        data[15]= "Kompost: Natural na abuno gikan sa basura o mga dahon";
-        data[16]= "Pananom: Proseso sa pag tanom ug mga gulay";
-        data[17]= "Pag-alaga: Pag atiman sa mga tanom ug hayop";
-        data[18]= "Kural: Harang para ma protektahan ang tanom";
-        data[19]= "Bulak: Parte sa tanom nga mahimo ug bunga";
+        data[10]= "Kompost: Natural na abuno gikan sa basura o mga dahon";
+        data[11]= "Pananom: Proseso sa pag tanom ug mga gulay";
+        data[12]= "Pag-alaga: Pag atiman sa mga tanom ug hayop";
+        data[13]= "Kural: Harang para ma protektahan ang tanom";
+        data[14]= "Bulak: Parte sa tanom nga mahimo ug bunga";
 
         // MEMBER: Juvineth O. MALINAO
        // This program helps users find the meaning of Bisaya agriculture terms
           by typing a word.
 
-        data[20]= "Abono: pataba sa tanom aron motubo ug maayo";
-        data[21]= "Binhi: liso nga itanom para mutubo nga tanom";
-        data[22]= "Uma: yuta nga gigamit sa pagpanguma";
-        data[23]= "Araro: gamit sa pag-andam sa yuta sa uma";
-        data[24]= "Irigasyon: sistema sa paghatag ug tubig sa tanom";
+        data[15]= "Abono: pataba sa tanom aron motubo ug maayo";
+        data[16]= "Binhi: liso nga itanom para mutubo nga tanom";
+        data[17]= "Uma: yuta nga gigamit sa pagpanguma";
+        data[18]= "Araro: gamit sa pag-andam sa yuta sa uma";
+        data[19]= "Irigasyon: sistema sa paghatag ug tubig sa tanom";
 
          //MEMBER: Katherine A. Tigoy
-         data[25]= "Bugas: Niluto o hilaw nga liso sa humay.";
-         data[26]= "Daro: Usa ka himan sa pag-uma nga giguyod sa kabaw aron pag-ugkat sa yuta.";
-         data[27]= "Huna: Ang pagpugas og mga liso sa yuta.";
-         data[28]= "Kabaw: Mananap nga makatabang sa mag-uuma sa pagdaro.";
-         data[29]= "Kopras: Bulad nga kinuha gikan sa lubi para himoong.";
-         data[30]= "Kamote: Usa ka matang sa lagutmon nga moturok sa yuta.";
+         data[20]= "Bugas: Niluto o hilaw nga liso sa humay.";
+         data[21]= "Daro: Usa ka himan sa pag-uma nga giguyod sa kabaw aron pag-ugkat sa yuta.";
+         data[22]= "Huna: Ang pagpugas og mga liso sa yuta.";
+         data[23]= "Kabaw: Mananap nga makatabang sa mag-uuma sa pagdaro.";
+         data[24]= "Kopras: Bulad nga kinuha gikan sa lubi para himoong.";
+         data[25]= "Kamote: Usa ka matang sa lagutmon nga moturok sa yuta.";
 
          ‎// MEMBER: Princess Jhaneña Carriaga
-        ‎data[31] = "Gulay: Mga klase nga tanom sa agrikultura";
-        ‎data[32] = "Kahayupan: Mga hayop nga gipangalagaan alang sa karne, itlog, o uban pang produkto";
-        ‎data[33] = "Yuta: Diin gitanom ang mga tanom sa agrikultura";
-        ‎data[34] = "Insekto: Mga klase sa pesti nga mo guba sa mga tanom o produkto";
-        ‎data[35] = "Pag-ani: Proseso sa pagkuha og mga produkto gikan sa tanom o hayop";
+        data[26] = "Saging: Tanum nga nagahatag og bunga nga saging";
+        data[27] = "Mangga: Tanum nga nagahatag og bunga nga mangga";
+        data[28] = "Niyog: Tanum nga nagahatag og lubi ug lana";
+        data[29] = "Palay: Humay nga wala pa gyud hinimo og bugas";
+        data[30] = "Isda: Hayop nga nagpuyo sa tubig ug ginakaon";
 
         // MEMBER: Charity S. Sisles
-       data[36]= "Liso:  binhi nga itanom aron motubo ang tanom";
-       data[37]= "Mag-uuma: tawo nga nagtrabaho sa uma";
-       data[38]= "Tanom:  tanum nga gipatubo sa uma";
-       data[39]= "Patubig:  paghatag ug tubig sa mga tanom";
-       data[40]= "Uma:  lugar diin nagtanim ug nag-uma ang tawo";
+       data[31]= "Liso:  binhi nga itanom aron motubo ang tanom";
+       data[32]= "Mag-uuma: tawo nga nagtrabaho sa uma";
+       data[33]= "Tanom:  tanum nga gipatubo sa uma";
+       data[34]= "Patubig:  paghatag ug tubig sa mga tanom";
+       data[35]= "Uma:  lugar diin nagtanim ug nag-uma ang tawo";
 
        // MEMBER: Alexa leanne T. Alcantara
-       data[41]= "Gamut: Bahin sa tanom nga naa sa ilawom sa yuta";
-       data[42]= "Maisan: Uma nga gitamnan og mais";
-       data[43]= "Umahan: Lugar diin ginabuhat ang pag-uma";
-       data[44]= "Punla: Bata pa nga tanom nga itanom pa sa uma";
-       data[45]= "Plantasyon Dako nga uma nga adunay daghang tanom parehas nga klase";
+       data[36]= "Gamut: Bahin sa tanom nga naa sa ilawom sa yuta";
+       data[37]= "Maisan: Uma nga gitamnan og mais";
+       data[38]= "Umahan: Lugar diin ginabuhat ang pag-uma";
+       data[39]= "Punla: Bata pa nga tanom nga itanom pa sa uma";
+       data[40]= "Plantasyon Dako nga uma nga adunay daghang tanom parehas nga klase";
 
        //MEMEBER: Chloe Jane M. Montañez
-       data[46] = "Ani: Mga produkto nga nakuha gikan sa uma";
-       data[47] = "Sagbot: Mga tanom nga dili gusto sa mag-uuma sa uma";
-       data[48] = "Pugas: Proseso sa pagbutang og binhi sa yuta";
-       data[49] = "Traktora: Makina nga gigamit sa pagdaro ug pagtrabaho sa uma";
-       data[50] = "Asarol: Himan nga gigamit sa pagbungkal ug paglimpyo sa yuta";
+       data[41] = "Ani: Mga produkto nga nakuha gikan sa uma";
+       data[42] = "Sagbot: Mga tanom nga dili gusto sa mag-uuma sa uma";
+       data[43] = "Pugas: Proseso sa pagbutang og binhi sa yuta";
+       data[44] = "Traktora: Makina nga gigamit sa pagdaro ug pagtrabaho sa uma";
+       data[45] = "Asarol: Himan nga gigamit sa pagbungkal ug paglimpyo sa yuta";
 
 }
 

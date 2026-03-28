@@ -60,11 +60,11 @@ public class BisayaAgriDicionary {
          data[30]= "Kamote: Usa ka matang sa lagutmon nga moturok sa yuta.";
 
          ‎// MEMBER: Princess Jhaneña Carriaga
-        ‎agriDictionary[31] = "Gulay: Mga klase nga tanom sa agrikultura";
-        ‎agriDictionary[32] = "Kahayupan: Mga hayop nga gipangalagaan alang sa karne, itlog, o uban pang produkto";
-        ‎agriDictionary[33] = "Yuta: Diin gitanom ang mga tanom sa agrikultura";
-        ‎agriDictionary[34] = "Insekto: Mga klase sa pesti nga mo guba sa mga tanom o produkto";
-        ‎agriDictionary[35] = "Pag-ani: Proseso sa pagkuha og mga produkto gikan sa tanom o hayop";
+        ‎data[31] = "Gulay: Mga klase nga tanom sa agrikultura";
+        ‎data[32] = "Kahayupan: Mga hayop nga gipangalagaan alang sa karne, itlog, o uban pang produkto";
+        ‎data[33] = "Yuta: Diin gitanom ang mga tanom sa agrikultura";
+        ‎data[34] = "Insekto: Mga klase sa pesti nga mo guba sa mga tanom o produkto";
+        ‎data[35] = "Pag-ani: Proseso sa pagkuha og mga produkto gikan sa tanom o hayop";
 
         // MEMBER: Charity S. Sisles
        data[36]= "Liso:  binhi nga itanom aron motubo ang tanom";

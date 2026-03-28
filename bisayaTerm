@@ -15,7 +15,7 @@ public class BisayaAgriDicionary {
     
     private String[] data = new String[50]
       // This code declares the counter variable to track the number of entries.
-       int count = 50;
+       private int count = 50;
        
         // This code loads the set of agriculture terms into the array.
 

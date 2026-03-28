@@ -32,11 +32,11 @@ public class AgriBisayaDicionary {
         data[8] = "Palay: Humay nga wala pa gyud hinimo og bugas";
         data[9] = "Isda: Hayop nga nagpuyo sa tubig ug ginakaon";
           // MEMBER: Janah Nicole M. Tayag
-        agriDictionary[10]= "Bungkal: Proseso sa pag andam sa yuta";
-        agriDictionary[11]= "Patubig: Paghatag ug tubig para ma buhi ang tanom";
-        agriDictionary[12]= "Pestidsidyo: Kemikal na pang patay sa mga peste o insekto";
-        agriDictionary[13]= "Peste: Mga insekto nga naga kaon o guba ug mga tanom";
-        agriDictionary[14]= "Tubig: Gina dilig sa tanom para ma buhi ug mo tubo";
+        data[10]= "Bungkal: Proseso sa pag andam sa yuta";
+        data[11]= "Patubig: Paghatag ug tubig para ma buhi ang tanom";
+        data[12]= "Pestidsidyo: Kemikal na pang patay sa mga peste o insekto";
+        data[13]= "Peste: Mga insekto nga naga kaon o guba ug mga tanom";
+        data[14]= "Tubig: Gina dilig sa tanom para ma buhi ug mo tubo";
 
         // MEMBER: Kimberly L. Mas 
         agriDictionary[15]= "Kompost: Natural na abuno gikan sa basura o mga dahon";

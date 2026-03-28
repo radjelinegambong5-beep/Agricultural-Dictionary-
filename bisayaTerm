@@ -74,6 +74,13 @@ public class AgriBisayaDicionary {
        data[39]= "Patubig:  paghatag ug tubig sa mga tanom";
        data[40]= "Uma:  lugar diin nagtanim ug nag-uma ang tawo";
 
+       // MEMBER: Alexa leanne T. Alcantara
+       data[41]= "Gamut: Bahin sa tanom nga naa sa ilawom sa yuta";
+       data[42]= "Maisan: Uma nga gitamnan og mais";
+       data[43]= "Umahan: Lugar diin ginabuhat ang pag-uma";
+       data[44]= "Punla: Bata pa nga tanom nga itanom pa sa uma";
+       data[45]= "Plantasyon Dako nga uma nga adunay daghang tanom parehas nga klase";
+
     // MEMBER: Jessa B.Torion
     // This method runs the program and allows user to search for a term
     public void runProgram() {

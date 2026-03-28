@@ -92,6 +92,14 @@ public class BisayaAgriDicionary {
        data[48] = "Kahoy: Dako nga tanom nga dunay lig-on nga punoan";
        data[49] = "Talong: Usa ka gulay nga ginatanom sa uma";
        data[50] = "Kamatis: Usa ka gulay nga kasagaran ginatanom sa uma";
+     
+      // MEMBER: Regene P. Pacio
+      data[51] = "Lubi: Tanum nga nagahatag og bunga nga mahimong lana ug kopras";
+      data[52] = "Gabi: Tanum nga gamot nga ginakaon ug ginahimo og pagkaon";
+      data[53] = "Saka: Proseso sa pagtanom sa humay sa uma";
+      data[54] = "Pahoy: Kahoy nga tanum nga mahimong gamiton sa konstruksyon";
+      data[55] = "Kahimtang sa Yuta: Kondisyon sa yuta kung maayo ba kini tanoman";
+      
 }
 
     // MEMBER: Jessa B.Torion and Chloe Jane Montanez

@@ -13,9 +13,9 @@ public class BisayaAgriDicionary {
     // This code declares the 1D array that stores all Bisaya agriculture terms.
     
     
-    private String[] data = new String[50]
+    private String[] data = new String[51]
       // This code declares the counter variable to track the number of entries.
-       private int count = 50;
+       private int count = 51;
        
         // This code loads the set of agriculture terms into the array.
 
@@ -86,6 +86,12 @@ public class BisayaAgriDicionary {
        data[44] = "Traktora: Makina nga gigamit sa pagdaro ug pagtrabaho sa uma";
        data[45] = "Asarol: Himan nga gigamit sa pagbungkal ug paglimpyo sa yuta";
 
+      //MEMBER: Kriszia Grace G. Gallego
+       data[46] = "Abaca: Tanom nga gigamit sa paghimo og lubid ug tela";
+       data[47] = "Lubi: Bunga sa niyog na mahimong pagkaon ug lana";
+       data[48] = "Kahoy: Dako nga tanom nga dunay lig-on nga punoan";
+       data[49] = "Talong: Usa ka gulay nga ginatanom sa uma";
+       data[50] = "Kamatis: Usa ka gulay nga kasagaran ginatanom sa uma";
 }
 
     // MEMBER: Jessa B.Torion and Chloe Jane Montanez

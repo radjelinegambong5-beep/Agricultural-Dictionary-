@@ -118,6 +118,34 @@ public class AgriBisayaDicionary {
         }
     }
 
+/*
+    MEMBER:Chloe Jane M. Montañez
+    This is the main method that controls the flow of the program.
+    */
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String choice;
+
+        displayTitle();
+
+        do {
+            String term = getUserInput(input);
+
+            if (isExist(term)) {
+                displayDefinition(term);
+            } else {
+                System.out.println("\nWala pa na dria nabutang bay.,. Salamat ha!");
+            }
+
+            choice = askAgain(input);
+
+        } while (choice.equalsIgnoreCase("yes"));
+
+        displayClosing();
+        input.close();
+    }
+}
     public static void main(String[] args) {
         AgriBisayaDictionary obj = new AgriBisayaDictionary();
         obj.runProgram();

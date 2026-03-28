@@ -45,11 +45,14 @@ public class BisayaAgriDicionary {
         data[19]= "Bulak: Parte sa tanom nga mahimo ug bunga";
 
          // MEMBER: Juvineth O. MALINAO
-        agriDictionary[20]= "Abono: pataba sa tanom aron motubo ug maayo";
-        agriDictionary[21]= "Binhi: liso nga itanom para mutubo nga tanom";
-        agriDictionary[22]= "Uma: yuta nga gigamit sa pagpanguma";
-        agriDictionary[23]= "Araro: gamit sa pag-andam sa yuta sa uma";
-        agriDictionary[24]= "Irigasyon: sistema sa paghatag ug tubig sa tanom";
+Purpose: This program helps users find the meaning of Bisaya agriculture terms
+by typing a word.
+
+        data[20]= "Abono: pataba sa tanom aron motubo ug maayo";
+        data[21]= "Binhi: liso nga itanom para mutubo nga tanom";
+        data[22]= "Uma: yuta nga gigamit sa pagpanguma";
+        data[23]= "Araro: gamit sa pag-andam sa yuta sa uma";
+        data[24]= "Irigasyon: sistema sa paghatag ug tubig sa tanom";
 
          //MEMBER: Katherine A. Tigoy
          data[25]= "Bugas: Niluto o hilaw nga liso sa humay.";

@@ -44,9 +44,9 @@ public class BisayaAgriDicionary {
         data[18]= "Kural: Harang para ma protektahan ang tanom";
         data[19]= "Bulak: Parte sa tanom nga mahimo ug bunga";
 
-         // MEMBER: Juvineth O. MALINAO
-Purpose: This program helps users find the meaning of Bisaya agriculture terms
-by typing a word.
+        // MEMBER: Juvineth O. MALINAO
+       // This program helps users find the meaning of Bisaya agriculture terms
+          by typing a word.
 
         data[20]= "Abono: pataba sa tanom aron motubo ug maayo";
         data[21]= "Binhi: liso nga itanom para mutubo nga tanom";

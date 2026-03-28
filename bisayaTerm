@@ -61,12 +61,18 @@ agriDictionary[0] = "Humay: Tanum nga ginagamit para sa bugas";
         agriDictionary[30]= "Kamote: Usa ka matang sa lagutmon nga moturok sa yuta."
 
          ‎// MEMBER: Princess Jhaneña Carriaga
-        ‎agriDictionary[31] = "Gulay: Mga klase nga tanom sa agrikultura";
+        ‎"uma: (noun) lugar diin nagtanim ug nag-uma ang tawo",[31] = "Gulay: Mga klase nga tanom sa agrikultura";
         ‎agriDictionary[32] = "Kahayupan: Mga hayop nga gipangalagaan alang sa karne, itlog, o uban pang produkto";
         ‎agriDictionary[33] = "Yuta: Diin gitanom ang mga tanom sa agrikultura";
         ‎agriDictionary[34] = "Insekto: Mga klase sa pesti nga mo guba sa mga tanom o produkto";
         ‎agriDictionary[35] = "Pag-ani: Proseso sa pagkuha og mga produkto gikan sa tanom o hayop";
 } 
+        // MEMBER: Charity S. Sisles
+        agriDictionary[36]= "Liso:  binhi nga itanom aron motubo ang tanom",
+       agriDictionary[37]= "Mag-uuma: tawo nga nagtrabaho sa uma"
+       agriDictionary[38]= "Tanom:  tanum nga gipatubo sa uma"
+       agriDictionary[39]= "Patubig:  paghatag ug tubig sa mga tanom",
+       agriDictionary[40]= "Uma:  lugar diin nagtanim ug nag-uma ang tawo",
 
     // MEMBER: Jessa B.Torion
     // This method runs the program and allows user to search for a term

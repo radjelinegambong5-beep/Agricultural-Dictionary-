@@ -66,7 +66,7 @@ public class AgriBisayaDicionary {
         ‎agriDictionary[33] = "Yuta: Diin gitanom ang mga tanom sa agrikultura";
         ‎agriDictionary[34] = "Insekto: Mga klase sa pesti nga mo guba sa mga tanom o produkto";
         ‎agriDictionary[35] = "Pag-ani: Proseso sa pagkuha og mga produkto gikan sa tanom o hayop";
-} 
+
         // MEMBER: Charity S. Sisles
        data[36]= "Liso:  binhi nga itanom aron motubo ang tanom";
        data[37]= "Mag-uuma: tawo nga nagtrabaho sa uma";
@@ -80,6 +80,15 @@ public class AgriBisayaDicionary {
        data[43]= "Umahan: Lugar diin ginabuhat ang pag-uma";
        data[44]= "Punla: Bata pa nga tanom nga itanom pa sa uma";
        data[45]= "Plantasyon Dako nga uma nga adunay daghang tanom parehas nga klase";
+
+       //MEMEBER: Chloe Jane M. Montañez
+       data[41] = "Ani: Mga produkto nga nakuha gikan sa uma";
+       data[42] = "Sagbot: Mga tanom nga dili gusto sa mag-uuma sa uma";
+       data[43] = "Pugas: Proseso sa pagbutang og binhi sa yuta";
+       data[44] = "Traktora: Makina nga gigamit sa pagdaro ug pagtrabaho sa uma";
+
+
+}
 
     // MEMBER: Jessa B.Torion
     // This method runs the program and allows user to search for a term

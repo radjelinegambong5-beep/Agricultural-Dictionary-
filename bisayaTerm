@@ -44,7 +44,14 @@ agriDictionary[0] = "Humay: Tanum nga ginagamit para sa bugas";
         agriDictionary[17]= "Pag-alaga: Pag atiman sa mga tanom ug hayop";
         agriDictionary[18]= "Kural: Harang para ma protektahan ang tanom";
         agriDictionary[19]= "Bulak: Parte sa tanom nga mahimo ug bunga";
-    }
+
+         // MEMBER: Juvineth O. MALINAO
+        agriDictionary[20]= "Abono: pataba sa tanom aron motubo ug maayo";
+        agriDictionary[21]= "Binhi: liso nga itanom para mutubo nga tanom";
+        agriDictionary[22]= "Uma: yuta nga gigamit sa pagpanguma";
+        agriDictionary[23]= "Araro: gamit sa pag-andam sa yuta sa uma";
+        agriDictionary[24]= "Irigasyon: sistema sa paghatag ug tubig sa tanom";
+} 
 
     // MEMBER: Jessa B.Torion
     // This method runs the program and allows user to search for a term

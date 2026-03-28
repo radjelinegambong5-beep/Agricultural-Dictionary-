@@ -6,7 +6,7 @@ Purpose: This program allows the user to search Bisaya agriculture terms
 
 import java.util.Scanner;
 
-public class AgriBisayaDicionary {
+public class BisayaAgriDicionary {
 
     
     // MEMBER 1: Radjeline Gambong
@@ -17,8 +17,7 @@ public class AgriBisayaDicionary {
       // This code declares the counter variable to track the number of entries.
        int count = 50;
        
-        // This code loads the first set of agriculture terms into the array.
-
+        // This code loads the set of agriculture terms into the array.
 
     public void loadData () {
         data[0] = "Humay: Tanum nga ginagamit para sa bugas";
@@ -53,12 +52,12 @@ public class AgriBisayaDicionary {
         agriDictionary[24]= "Irigasyon: sistema sa paghatag ug tubig sa tanom";
 
          //MEMBER: Katherine A. Tigoy
-        agriDictionary[25]= "Bugas: Niluto o hilaw nga liso sa humay.";
-        agriDictionary[26]= "Daro: Usa ka himan sa pag-uma nga giguyod sa kabaw aron pag-ugkat sa yuta.";
-        agriDictionary[27]= "Huna: Ang pagpugas og mga liso sa yuta.";
-        agriDictionary[28]= "Kabaw: Mananap nga makatabang sa mag-uuma sa pagdaro.";
-        agriDictionary[29]= "Kopras: Bulad nga kinuha gikan sa lubi para himoong.";
-        agriDictionary[30]= "Kamote: Usa ka matang sa lagutmon nga moturok sa yuta.";
+         data[25]= "Bugas: Niluto o hilaw nga liso sa humay.";
+         data[26]= "Daro: Usa ka himan sa pag-uma nga giguyod sa kabaw aron pag-ugkat sa yuta.";
+         data[27]= "Huna: Ang pagpugas og mga liso sa yuta.";
+         data[28]= "Kabaw: Mananap nga makatabang sa mag-uuma sa pagdaro.";
+         data[29]= "Kopras: Bulad nga kinuha gikan sa lubi para himoong.";
+         data[30]= "Kamote: Usa ka matang sa lagutmon nga moturok sa yuta.";
 
          ‎// MEMBER: Princess Jhaneña Carriaga
         ‎agriDictionary[31] = "Gulay: Mga klase nga tanom sa agrikultura";

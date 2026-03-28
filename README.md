@@ -1,1 +1,34 @@
-# Agricultural-Dictionary-
+/*
+Group 2: Agriculture Bisaya Dictionary
+Purpose: This program allows the user to search Bisaya agriculture terms 
+         and display their definitions using a 1D array.
+*/
+
+import java.util.Scanner;
+
+public class AgriBisayaDictionary {
+
+    
+    // MEMBER 1: Radjeline Gambong
+    // This code declares the 1D array that stores all Bisaya agriculture terms.
+    
+    
+    private String[] agriDictionary = new String[50]
+      // This code declares the counter variable to track the number of entries.
+       int count = 30;
+       
+        // This code loads the first set of agriculture terms into the array.
+
+
+    public void agriTerm1 () {
+agriDictionary[0] = "Humay: Tanum nga ginagamit para sa bugas";
+        agriDictionary[1] = "Mais: Tanum nga ginagamit para sa pagkaon";
+        agriDictionary[2] = "Baboy: Hayop nga ginabuhat para sa karne";
+        agriDictionary[3] = "Kanding: Hayop nga ginabuhat para sa gatas ug karne";
+        agriDictionary[4] = "Manok: Hayop nga ginabuhat para sa itlog ug karne";
+        agriDictionary[5] = "Saging: Tanum nga nagahatag og bunga nga saging";
+        agriDictionary[6] = "Mangga: Tanum nga nagahatag og bunga nga mangga";
+        agriDictionary[7] = "Niyog: Tanum nga nagahatag og lubi ug lana";
+        agriDictionary[8] = "Palay: Humay nga wala pa gyud hinimo og bugas";
+        agriDictionary[9] = "Isda: Hayop nga nagpuyo sa tubig ug ginakaon";
+    }

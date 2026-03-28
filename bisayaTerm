@@ -53,12 +53,12 @@ agriDictionary[0] = "Humay: Tanum nga ginagamit para sa bugas";
         agriDictionary[24]= "Irigasyon: sistema sa paghatag ug tubig sa tanom";
 
          //MEMBER: Katherine A. Tigoy
-        agriDictionary[25]= "Bugas: Niluto o hilaw nga liso sa humay.",
-        agriDictionary[26]= "Daro: Usa ka himan sa pag-uma nga giguyod sa kabaw aron pag-ugkat sa yuta.",
-        agriDictionary[27]= "Huna: Ang pagpugas og mga liso sa yuta.",
-        agriDictionary[28]= "Kabaw: Mananap nga makatabang sa mag-uuma sa pagdaro.",
-        agriDictionary[29]= "Kopras: Bulad nga kinuha gikan sa lubi para himoong.",
-        agriDictionary[30]= "Kamote: Usa ka matang sa lagutmon nga moturok sa yuta."
+        agriDictionary[25]= "Bugas: Niluto o hilaw nga liso sa humay.";
+        agriDictionary[26]= "Daro: Usa ka himan sa pag-uma nga giguyod sa kabaw aron pag-ugkat sa yuta.";
+        agriDictionary[27]= "Huna: Ang pagpugas og mga liso sa yuta.";
+        agriDictionary[28]= "Kabaw: Mananap nga makatabang sa mag-uuma sa pagdaro.";
+        agriDictionary[29]= "Kopras: Bulad nga kinuha gikan sa lubi para himoong.";
+        agriDictionary[30]= "Kamote: Usa ka matang sa lagutmon nga moturok sa yuta.";
 
          ‎// MEMBER: Princess Jhaneña Carriaga
         ‎agriDictionary[31] = "Gulay: Mga klase nga tanom sa agrikultura";

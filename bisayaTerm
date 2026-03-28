@@ -39,11 +39,11 @@ public class AgriBisayaDicionary {
         data[14]= "Tubig: Gina dilig sa tanom para ma buhi ug mo tubo";
 
         // MEMBER: Kimberly L. Mas 
-        agriDictionary[15]= "Kompost: Natural na abuno gikan sa basura o mga dahon";
-        agriDictionary[16]= "Pananom: Proseso sa pag tanom ug mga gulay";
-        agriDictionary[17]= "Pag-alaga: Pag atiman sa mga tanom ug hayop";
-        agriDictionary[18]= "Kural: Harang para ma protektahan ang tanom";
-        agriDictionary[19]= "Bulak: Parte sa tanom nga mahimo ug bunga";
+        data[15]= "Kompost: Natural na abuno gikan sa basura o mga dahon";
+        data[16]= "Pananom: Proseso sa pag tanom ug mga gulay";
+        data[17]= "Pag-alaga: Pag atiman sa mga tanom ug hayop";
+        data[18]= "Kural: Harang para ma protektahan ang tanom";
+        data[19]= "Bulak: Parte sa tanom nga mahimo ug bunga";
 
          // MEMBER: Juvineth O. MALINAO
         agriDictionary[20]= "Abono: pataba sa tanom aron motubo ug maayo";

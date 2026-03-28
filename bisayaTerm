@@ -6,7 +6,7 @@ Purpose: This program allows the user to search Bisaya agriculture terms
 
 import java.util.Scanner;
 
-public class AgriBisayaDictionary {
+public class AgriBisayaDicionary {
 
     
     // MEMBER 1: Radjeline Gambong

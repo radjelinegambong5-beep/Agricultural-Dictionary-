@@ -68,7 +68,7 @@ agriDictionary[0] = "Humay: Tanum nga ginagamit para sa bugas";
         ‎agriDictionary[35] = "Pag-ani: Proseso sa pagkuha og mga produkto gikan sa tanom o hayop";
 } 
         // MEMBER: Charity S. Sisles
-        agriDictionary[36]= "Liso:  binhi nga itanom aron motubo ang tanom",
+       agriDictionary[36]= "Liso:  binhi nga itanom aron motubo ang tanom",
        agriDictionary[37]= "Mag-uuma: tawo nga nagtrabaho sa uma"
        agriDictionary[38]= "Tanom:  tanum nga gipatubo sa uma"
        agriDictionary[39]= "Patubig:  paghatag ug tubig sa mga tanom",

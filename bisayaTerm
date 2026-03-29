@@ -107,7 +107,17 @@ public class BisayaAgriDicionary {
       data[58] = "Lansa: Dili angay na baho na gikan sa mga karne ug lamang dagat";
       data[59] = "Bangus: Klase sa isda na pwede mahimong pang negosyo kasagaran gina "farm"";
       data[60] = "Kamonggay: Klase nga punuan nga ang dahon ug liso mahimong gulay ug tambal";
-}
+
+      /* 
+      Ashlee Shane A. Jayme
+      This code adds agriculture Bisaya terms and their definitions to the dictionary array.
+      */
+      data[61] = "Lapok:(noun) basa ug humok nga yuta";
+      data[62] = "Bunga:(noun) parte sa tanom nga mahimong pagkaon o ani";
+      data[63] = "Hinog:(adjective) andam na anihon o kuhaon";
+      data[64] = "Hilaw:(adjective) kahimtang sa bunga o tanom nga wala pa nahinog";
+      data[65] = "Pag-ibot:(verb) pagtangtang sa sagbot o tanom ug sagbot pinaagi sa kamot";
+  }
 
     // MEMBER: Jessa B.Torion and Chloe Jane Montanez
 

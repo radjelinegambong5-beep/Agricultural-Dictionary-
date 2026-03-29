@@ -7,16 +7,16 @@ package com.mycompany.bisayaagridictionary;  //Used to organize the code into a 
 import java.util.Scanner;    // Import Scanner for User Input.
 
 
-public class BisayaAgriDicionary {
+public class BisayaAgriDictionary {
 
     
     // MEMBER 1: Radjeline Gambong
     // This code declares the 1D array that stores all Bisaya agriculture terms and meanings.
     
     
-    private String[] data = new String[51];
+    private String[] data = new String[60];
       // This code declares the counter variable to track the number of entries.
-       private int count = 51;
+       private int count = 60;
        
         // This code loads the set of agriculture terms into the array.
 

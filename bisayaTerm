@@ -119,6 +119,7 @@ public class BisayaAgriDictionary {
       data[65] = "Pag-ibot:(verb) pagtangtang sa sagbot o tanom ug sagbot pinaagi sa kamot";
 
      // MEMBER: Rochelle A. Vibora
+     //  This code adds agriculture Bisaya terms and their definitions to the dictionary array.
      data[66] = "Abel: Proseso sa pag-ani ug pagtipig sa humay o mais";
      data[67] = "Gikanan: Lugar diin gisugdan ang pagtubo sa tanom";
      data[68] = "Tig-abuno: Tawong naga butang ug abono sa tanom";

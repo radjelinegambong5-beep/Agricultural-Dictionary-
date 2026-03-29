@@ -139,7 +139,15 @@ public class BisayaAgriDictionary {
      data[78] = "Bakuna sa hayop: Proteksyon batok sa sakit sa mga hayop";
      data[79] = "Abonohan: Lugar diin ginabutang o ginahimo ang abono";
      data[80] = "Salingsing: Proseso sa pagbalhin sa tanom gikan sa punlaan ngadto sa uma";
-  }
+
+   // MEMBER: Sumayyah T. Jose
+     data[81] = "Teknolohiya sa Panguma: Paggamit og modernong makina ug pamaagi sa pagpanguma";
+     data[82] = "Pagpanglimpyo sa Uma: Pagkuha sa sagbot ug hugaw aron limpyo ang tanoman";
+     data[83] = "Pagpili og Binhi: Pagpili sa maayong klase sa liso aron taas ang ani";
+     data[84] = "Pagbantay sa Tanom: Pagmonitor sa kahimtang sa tanom aron malikayan ang sait";
+     data[85] = "Pagtipig sa Ani: Husto nga pag-imbak sa ani aron dili madaot";
+
+}
 
     // MEMBER: Jessa B.Torion and Chloe Jane Montanez
 

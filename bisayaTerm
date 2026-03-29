@@ -3,7 +3,7 @@ Group 2: Agriculture Bisaya Dictionary
 Purpose: This program allows the user to search Bisaya agriculture terms 
          and display their definitions using a 1D array.
 */
-
+package com.mycompany.bisayaagridictionary;  //Used to organize the code into a specific project.
 import java.util.Scanner;    // Import Scanner for User Input.
 
 
@@ -14,7 +14,7 @@ public class BisayaAgriDicionary {
     // This code declares the 1D array that stores all Bisaya agriculture terms and meanings.
     
     
-    private String[] data = new String[51]
+    private String[] data = new String[51];
       // This code declares the counter variable to track the number of entries.
        private int count = 51;
        

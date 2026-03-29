@@ -117,6 +117,13 @@ public class BisayaAgriDicionary {
       data[63] = "Hinog:(adjective) andam na anihon o kuhaon";
       data[64] = "Hilaw:(adjective) kahimtang sa bunga o tanom nga wala pa nahinog";
       data[65] = "Pag-ibot:(verb) pagtangtang sa sagbot o tanom ug sagbot pinaagi sa kamot";
+
+     // MEMBER: Rochelle A. Vibora
+     data[66] = "Abel: Proseso sa pag-ani ug pagtipig sa humay o mais";
+     data[67] = "Gikanan: Lugar diin gisugdan ang pagtubo sa tanom";
+     data[68] = "Tig-abuno: Tawong naga butang ug abono sa tanom";
+     data[69] = "Balili: Klase sa sagbot nga kasagaran makita sa uma";
+     data[70] = "Alima: Pag-atiman ug pagbantay sa tanom aron motubo ug tarong";
   }
 
     // MEMBER: Jessa B.Torion and Chloe Jane Montanez

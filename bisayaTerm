@@ -101,7 +101,7 @@ public class BisayaAgriDicionary {
       data[54] = "Pahoy: Kahoy nga tanum nga mahimong gamiton sa konstruksyon";
       data[55] = "Kahimtang sa Yuta: Kondisyon sa yuta kung maayo ba kini tanoman";
 
-      // MEMBER: Jnna Mae G. Arnado
+      // MEMBER: Jonna Mae G. Arnado
       data[56] = "Lubog: Klase sa tubing nga delikado inumon";
       data[57] = "Langas: Gubot ug samok nga tingog";
       data[58] = "Lansa: Dili angay na baho na gikan sa mga karne ug lamang dagat";

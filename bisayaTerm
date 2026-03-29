@@ -124,6 +124,20 @@ public class BisayaAgriDicionary {
      data[68] = "Tig-abuno: Tawong naga butang ug abono sa tanom";
      data[69] = "Balili: Klase sa sagbot nga kasagaran makita sa uma";
      data[70] = "Alima: Pag-atiman ug pagbantay sa tanom aron motubo ug tarong";
+
+    // MEMBER: Nelly Jean M. Quiamco
+     data[71] = "Tipunanan sa Lugas: Usa ka tore nga gigamit sa pagtipig sa kumpay o lugas";
+     data[72] = "Tabon-Tanom: Tanom nga gipatubo aron mapanalipdan o mapauswag ang yuta kaysa anihon";
+     data[73] = "Pagtikad: Pag-andam sa yuta alang sa pagpananom";
+     data[74] = "Fallow Land: Yuta nga gipapahulay aron mabalik ang natural nga katambok niini";
+     data[75] = "Sibsiban: usa ka luna sa yuta diin ang mga mananap didto mokaon og sagbot";
+
+   // MEMBER: Aliza J. Juban
+     data[76] = "Manokan: Lugar o sistema sa pag-atiman sa manok";
+     data[77] = "Babuyan: Lugar diin gipadako ang mga baboy";
+     data[78] = "Bakuna sa hayop: Proteksyon batok sa sakit sa mga hayop";
+     data[79] = "Abonohan: Lugar diin ginabutang o ginahimo ang abono";
+     data[80] = "Salingsing: Proseso sa pagbalhin sa tanom gikan sa punlaan ngadto sa uma";
   }
 
     // MEMBER: Jessa B.Torion and Chloe Jane Montanez

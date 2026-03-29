@@ -4,13 +4,14 @@ Purpose: This program allows the user to search Bisaya agriculture terms
          and display their definitions using a 1D array.
 */
 
-import java.util.Scanner;
+import java.util.Scanner;    // Import Scanner for User Input.
+
 
 public class BisayaAgriDicionary {
 
     
     // MEMBER 1: Radjeline Gambong
-    // This code declares the 1D array that stores all Bisaya agriculture terms.
+    // This code declares the 1D array that stores all Bisaya agriculture terms and meanings.
     
     
     private String[] data = new String[51]
@@ -58,7 +59,7 @@ public class BisayaAgriDicionary {
          data[24]= "Kopras: Bulad nga kinuha gikan sa lubi para himoong.";
          data[25]= "Kamote: Usa ka matang sa lagutmon nga moturok sa yuta.";
 
-         ‎// MEMBER: Princess Jhaneña Carriaga
+         //MEMBER: Princess Jhaneña Carriaga
         data[26] = "Saging: Tanum nga nagahatag og bunga nga saging";
         data[27] = "Mangga: Tanum nga nagahatag og bunga nga mangga";
         data[28] = "Niyog: Tanum nga nagahatag og lubi ug lana";
@@ -77,7 +78,7 @@ public class BisayaAgriDicionary {
        data[37]= "Maisan: Uma nga gitamnan og mais";
        data[38]= "Umahan: Lugar diin ginabuhat ang pag-uma";
        data[39]= "Punla: Bata pa nga tanom nga itanom pa sa uma";
-       data[40]= "Plantasyon Dako nga uma nga adunay daghang tanom parehas nga klase";
+       data[40]= "Plantasyon: Dako nga uma nga adunay daghang tanom parehas nga klase";
 
        //MEMEBER: Chloe Jane M. Montañez
        data[41] = "Ani: Mga produkto nga nakuha gikan sa uma";

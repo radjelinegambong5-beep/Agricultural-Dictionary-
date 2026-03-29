@@ -103,11 +103,10 @@ public class BisayaAgriDicionary {
 
       // MEMBER: Jonna Mae G. Arnado
       data[56] = "Lubog: Klase sa tubing nga delikado inumon";
-      data[57] = "Langas: Gubot ug samok nga tingog";
+      data[57] = "Lata: Humok nga mura ug lapok kong mabasa";
       data[58] = "Lansa: Dili angay na baho na gikan sa mga karne ug lamang dagat";
-      data[59] = "Hilom: Dili samok ug mingaw na tingog";
-      data[60] = "Batan-on: Tawag sa bata nga lalaki na dili pa pamilyado";
-
+      data[59] = "Bangus: Klase sa isda na pwede mahimong pang negosyo kasagaran gina "farm"";
+      data[60] = "Kamonggay: Klase nga punuan nga ang dahon ug liso mahimong gulay ug tambal";
 }
 
     // MEMBER: Jessa B.Torion and Chloe Jane Montanez

@@ -102,11 +102,11 @@ public class BisayaAgriDictionary {
       data[55] = "Kahimtang sa Yuta: Kondisyon sa yuta kung maayo ba kini tanoman";
 
       // MEMBER: Jonna Mae G. Arnado
-      data[56] = "Lubog: Klase sa tubing nga delikado inumon";
-      data[57] = "Lata: Humok nga mura ug lapok kong mabasa";
-      data[58] = "Lansa: Dili angay na baho na gikan sa mga karne ug lamang dagat";
-      data[59] = "Bangus: Klase sa isda na pwede mahimong pang negosyo kasagaran gina "farm"";
-      data[60] = "Kamonggay: Klase nga punuan nga ang dahon ug liso mahimong gulay ug tambal";
+      data[56] = "Lubog: (pronoun) Klase sa tubing nga delikado inumon";
+      data[57] = "Lata: (pronoun) Humok nga mura ug lapok kong mabasa";
+      data[58] = "Lansa: (pronoun) Dili angay na baho na gikan sa mga karne ug lamang dagat";
+      data[59] = "Bangus: (noun) Klase sa isda na pwede mahimong pang negosyo kasagaran gina "farm"";
+      data[60] = "Kamonggay: (noun) Klase nga punuan nga ang dahon ug liso mahimong gulay ug tambal";
 }
 
     // MEMBER: Jessa B.Torion and Chloe Jane Montanez

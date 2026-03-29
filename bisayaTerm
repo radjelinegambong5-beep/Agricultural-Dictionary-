@@ -100,7 +100,14 @@ public class BisayaAgriDicionary {
       data[53] = "Saka: Proseso sa pagtanom sa humay sa uma";
       data[54] = "Pahoy: Kahoy nga tanum nga mahimong gamiton sa konstruksyon";
       data[55] = "Kahimtang sa Yuta: Kondisyon sa yuta kung maayo ba kini tanoman";
-      
+
+      // MEMBER: Jnna Mae G. Arnado
+      data[56] = "Lubog: Klase sa tubing nga delikado inumon";
+      data[57] = "Langas: Gubot ug samok nga tingog";
+      data[58] = "Lansa: Dili angay na baho na gikan sa mga karne ug lamang dagat";
+      data[59] = "Hilom: Dili samok ug mingaw na tingog";
+      data[60] = "Batan-on: Tawag sa bata nga lalaki na dili pa pamilyado";
+
 }
 
     // MEMBER: Jessa B.Torion and Chloe Jane Montanez

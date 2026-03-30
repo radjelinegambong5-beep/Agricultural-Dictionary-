@@ -16,7 +16,7 @@ public class BisayaAgriDictionary {
     
     private String[] data = new String[100];
       // This code declares the counter variable to track the number of entries.
-       private int count = 81;
+       private int count = 86;
        
         // This code loads the set of agriculture terms into the array.
 
@@ -155,7 +155,7 @@ public void runProgram() {
         Scanner sc = new Scanner(System.in);
         loadData();
 
-        System.out.println("Bisaya Agriculture Dictionary");
+        System.out.println("=====Bisaya Agriculture Dictionary=====");
         System.out.println("Type 'exit' to quit.");
 
         while (true) {

@@ -26,121 +26,81 @@ public class BisayaAgriDictionary {
         data[2] = "Baboy: Hayop nga ginabuhat para sa karne";
         data[3] = "Kanding: Hayop nga ginabuhat para sa gatas ug karne";
         data[4] = "Manok: Hayop nga ginabuhat para sa itlog ug karne";
-        
-          // MEMBER: Janah Nicole M. Tayag
         data[5]= "Bungkal: Proseso sa pag andam sa yuta";
         data[6]= "Patubig: Paghatag ug tubig para ma buhi ang tanom";
         data[7]= "Pestidsidyo: Kemikal na pang patay sa mga peste o insekto";
         data[8]= "Peste: Mga insekto nga naga kaon o guba ug mga tanom";
         data[9]= "Tubig: Gina dilig sa tanom para ma buhi ug mo tubo";
-
-        // MEMBER: Kimberly L. Mas 
         data[10]= "Kompost: Natural na abuno gikan sa basura o mga dahon";
         data[11]= "Pananom: Proseso sa pag tanom ug mga gulay";
         data[12]= "Pag-alaga: Pag atiman sa mga tanom ug hayop";
         data[13]= "Kural: Harang para ma protektahan ang tanom";
         data[14]= "Bulak: Parte sa tanom nga mahimo ug bunga";
-
-        // MEMBER: Juvineth O. MALINAO
-       // This program helps users find the meaning of Bisaya agriculture terms
-          by typing a word.
-
         data[15]= "Abono: pataba sa tanom aron motubo ug maayo";
         data[16]= "Binhi: liso nga itanom para mutubo nga tanom";
         data[17]= "Uma: yuta nga gigamit sa pagpanguma";
         data[18]= "Araro: gamit sa pag-andam sa yuta sa uma";
-        data[19]= "Irigasyon: sistema sa paghatag ug tubig sa tanom";
-
-         //MEMBER: Katherine A. Tigoy
-         data[20]= "Bugas: Niluto o hilaw nga liso sa humay.";
-         data[21]= "Daro: Usa ka himan sa pag-uma nga giguyod sa kabaw aron pag-ugkat sa yuta.";
-         data[22]= "Huna: Ang pagpugas og mga liso sa yuta.";
-         data[23]= "Kabaw: Mananap nga makatabang sa mag-uuma sa pagdaro.";
-         data[24]= "Kopras: Bulad nga kinuha gikan sa lubi para himoong.";
-         data[25]= "Kamote: Usa ka matang sa lagutmon nga moturok sa yuta.";
-
-         //MEMBER: Princess Jhaneña Carriaga
+        data[19]= "Irigasyon: sistema sa paghatag ug tubig sa tanom";data[20]= "Bugas: Niluto o hilaw nga liso sa humay.";
+        data[21]= "Daro: Usa ka himan sa pag-uma nga giguyod sa kabaw aron pag-ugkat sa yuta.";
+        data[22]= "Huna: Ang pagpugas og mga liso sa yuta.";
+        data[23]= "Kabaw: Mananap nga makatabang sa mag-uuma sa pagdaro.";
+        data[24]= "Kopras: Bulad nga kinuha gikan sa lubi para himoong.";
+        data[25]= "Kamote: Usa ka matang sa lagutmon nga moturok sa yuta.";
         data[26] = "Saging: Tanum nga nagahatag og bunga nga saging";
         data[27] = "Mangga: Tanum nga nagahatag og bunga nga mangga";
         data[28] = "Niyog: Tanum nga nagahatag og lubi ug lana";
         data[29] = "Palay: Humay nga wala pa gyud hinimo og bugas";
         data[30] = "Isda: Hayop nga nagpuyo sa tubig ug ginakaon";
-
-        // MEMBER: Charity S. Sisles
-       data[31]= "Liso:  binhi nga itanom aron motubo ang tanom";
-       data[32]= "Mag-uuma: tawo nga nagtrabaho sa uma";
-       data[33]= "Tanom:  tanum nga gipatubo sa uma";
-       data[34]= "Patubig:  paghatag ug tubig sa mga tanom";
-       data[35]= "Uma:  lugar diin nagtanim ug nag-uma ang tawo";
-
-       // MEMBER: Alexa leanne T. Alcantara
-       data[36]= "Gamut: Bahin sa tanom nga naa sa ilawom sa yuta";
-       data[37]= "Maisan: Uma nga gitamnan og mais";
-       data[38]= "Umahan: Lugar diin ginabuhat ang pag-uma";
+        data[31]= "Liso:  binhi nga itanom aron motubo ang tanom";
+        data[32]= "Mag-uuma: tawo nga nagtrabaho sa uma";
+        data[33]= "Tanom:  tanum nga gipatubo sa uma";
+        data[34]= "Patubig:  paghatag ug tubig sa mga tanom";
+        data[35]= "Uma:  lugar diin nagtanim ug nag-uma ang tawo";
+        data[36]= "Gamut: Bahin sa tanom nga naa sa ilawom sa yuta";
+        data[37]= "Maisan: Uma nga gitamnan og mais";
+        data[38]= "Umahan: Lugar diin ginabuhat ang pag-uma";
        data[39]= "Punla: Bata pa nga tanom nga itanom pa sa uma";
        data[40]= "Plantasyon: Dako nga uma nga adunay daghang tanom parehas nga klase";
-
-       //MEMEBER: Chloe Jane M. Montañez
        data[41] = "Ani: Mga produkto nga nakuha gikan sa uma";
        data[42] = "Sagbot: Mga tanom nga dili gusto sa mag-uuma sa uma";
        data[43] = "Pugas: Proseso sa pagbutang og binhi sa yuta";
        data[44] = "Traktora: Makina nga gigamit sa pagdaro ug pagtrabaho sa uma";
        data[45] = "Asarol: Himan nga gigamit sa pagbungkal ug paglimpyo sa yuta";
-
-      //MEMBER: Kriszia Grace G. Gallego
        data[46] = "Abaca: Tanom nga gigamit sa paghimo og lubid ug tela";
        data[47] = "Lubi: Bunga sa niyog na mahimong pagkaon ug lana";
        data[48] = "Kahoy: Dako nga tanom nga dunay lig-on nga punoan";
        data[49] = "Talong: Usa ka gulay nga ginatanom sa uma";
        data[50] = "Kamatis: Usa ka gulay nga kasagaran ginatanom sa uma";
-     
-      // MEMBER: Regene P. Pacio
       data[51] = "Lubi: Tanum nga nagahatag og bunga nga mahimong lana ug kopras";
       data[52] = "Gabi: Tanum nga gamot nga ginakaon ug ginahimo og pagkaon";
       data[53] = "Saka: Proseso sa pagtanom sa humay sa uma";
       data[54] = "Pahoy: Kahoy nga tanum nga mahimong gamiton sa konstruksyon";
       data[55] = "Kahimtang sa Yuta: Kondisyon sa yuta kung maayo ba kini tanoman";
-
-      // MEMBER: Jonna Mae G. Arnado
       data[56] = "Lubog: Klase sa tubing nga delikado inumon";
       data[57] = "Lata: Humok nga mura ug lapok kong mabasa";
       data[58] = "Lansa: Dili angay na baho na gikan sa mga karne ug lamang dagat";
       data[59] = "Bangus: Klase sa isda na pwede mahimong pang negosyo kasagaran gina farm";
       data[60] = "Kamonggay: Klase nga punuan nga ang dahon ug liso mahimong gulay ug tambal";
-
-      /* 
-      Ashlee Shane A. Jayme
-      This code adds agriculture Bisaya terms and their definitions to the dictionary array.
-      */
       data[61] = "Lapok:(noun) basa ug humok nga yuta";
       data[62] = "Bunga:(noun) parte sa tanom nga mahimong pagkaon o ani";
       data[63] = "Hinog:(adjective) andam na anihon o kuhaon";
       data[64] = "Hilaw:(adjective) kahimtang sa bunga o tanom nga wala pa nahinog";
       data[65] = "Pag-ibot:(verb) pagtangtang sa sagbot o tanom ug sagbot pinaagi sa kamot";
-
-     // MEMBER: Rochelle A. Vibora
-     //  This code adds agriculture Bisaya terms and their definitions to the dictionary array.
      data[66] = "Abel: Proseso sa pag-ani ug pagtipig sa humay o mais";
      data[67] = "Gikanan: Lugar diin gisugdan ang pagtubo sa tanom";
      data[68] = "Tig-abuno: Tawong naga butang ug abono sa tanom";
      data[69] = "Balili: Klase sa sagbot nga kasagaran makita sa uma";
      data[70] = "Alima: Pag-atiman ug pagbantay sa tanom aron motubo ug tarong";
-
-    // MEMBER: Nelly Jean M. Quiamco
      data[71] = "Tipunanan sa Lugas: Usa ka tore nga gigamit sa pagtipig sa kumpay o lugas";
      data[72] = "Tabon-Tanom: Tanom nga gipatubo aron mapanalipdan o mapauswag ang yuta kaysa anihon";
      data[73] = "Pagtikad: Pag-andam sa yuta alang sa pagpananom";
      data[74] = "Fallow Land: Yuta nga gipapahulay aron mabalik ang natural nga katambok niini";
      data[75] = "Sibsiban: usa ka luna sa yuta diin ang mga mananap didto mokaon og sagbot";
-
-   // MEMBER: Aliza J. Juban
      data[76] = "Manokan: Lugar o sistema sa pag-atiman sa manok";
      data[77] = "Babuyan: Lugar diin gipadako ang mga baboy";
      data[78] = "Bakuna sa hayop: Proteksyon batok sa sakit sa mga hayop";
      data[79] = "Abonohan: Lugar diin ginabutang o ginahimo ang abono";
      data[80] = "Salingsing: Proseso sa pagbalhin sa tanom gikan sa punlaan ngadto sa uma";
-
-   // MEMBER: Sumayyah T. Jose
      data[81] = "Teknolohiya sa Panguma: Paggamit og modernong makina ug pamaagi sa pagpanguma";
      data[82] = "Pagpanglimpyo sa Uma: Pagkuha sa sagbot ug hugaw aron limpyo ang tanoman";
      data[83] = "Pagpili og Binhi: Pagpili sa maayong klase sa liso aron taas ang ani";
@@ -148,49 +108,10 @@ public class BisayaAgriDictionary {
      data[85] = "Pagtipig sa Ani: Husto nga pag-imbak sa ani aron dili madaot";
 
 }
-
-    // MEMBER: Jessa B.Torion and Chloe Jane Montanez
-
-public void runProgram() {
-        Scanner sc = new Scanner(System.in);
-        loadData();
-
-        System.out.println("=====Bisaya Agriculture Dictionary=====");
-        System.out.println("Type 'exit' to quit.");
-
-        while (true) {
-            System.out.print("Ibutang ang term: ");
-            String input = sc.nextLine().trim();
-
-            if (input.equalsIgnoreCase("exit")) {
-                System.out.println("Salamat sa paggamit sa dictionary! Bye!");
-                break;
-            }
-
-            boolean found = false;
-
-            for (int i = 0; i < count; i++) {
-                if (data[i] != null) {
-                    String[] parts = data[i].split(":", 2);
-                    if (parts[0].equalsIgnoreCase(input)) {
-                        System.out.println(parts[1].trim());
-                        found = true;
-                        break;
-                    }
-                }
-            }
-
-            if (!found) {
-                System.out.println("Wala pa na dria nabutang bay.,. Salamat ha!");
-            }
-        }
-
-        sc.close();
-    }
-
-    public static void main(String[] args) {
-        BisayaAgriDictionary obj = new BisayaAgriDictionary();
-        obj.runProgram();
-    }
+   /*
+    Radjeline Gambong.
+ This method is used to display a message that tells the user to try again when the input is invalid or incorrect.
+/*
+      public static void retryMessage(){
+  System.out.print("Palihug kog type ug usab");
 }
-    

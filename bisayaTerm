@@ -119,7 +119,20 @@ public class BisayaAgriDictionary {
   /*
    Juvineth Malinao
 This method is used to checks if the user input is empty.
+
 /*
       public static boolean isEmptyInput(String input) {
  return input == null || input.trim().isEmpty();
 }
+
+ /*
+   Kriszia Grace G. Gallego
+ /*
+This method is used to check if the user input contains special characters 
+and tells the program if the input is invalid.
+
+*/
+public static boolean hasSpecialChars(String input) {
+    return !input.matches("[a-zA-Z ]+");
+}
+

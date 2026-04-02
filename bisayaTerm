@@ -114,4 +114,12 @@ public class BisayaAgriDictionary {
 /*
       public static void retryMessage(){
   System.out.print("Palihug kog type ug usab");
+} 
+
+  /*
+   Juvineth Malinao
+This method is used to checks if the user input is empty.
+/*
+      public static boolean isEmptyInput(String input) {
+ return input == null || input.trim().isEmpty();
 }

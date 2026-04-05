@@ -40,6 +40,12 @@ public class BisayaAgriDictionary {
         data[12]= "Pag-alaga: Pag atiman sa mga tanom ug hayop";
         data[13]= "Kural: Harang para ma protektahan ang tanom";
         data[14]= "Bulak: Parte sa tanom nga mahimo ug bunga";
+/*
+  This method checks if the input string contains only letters (a-z or A-Z).
+ */
+public static boolean isValidWord(String input) {
+  return input.matches("[a-zA-Z]+");
+}
 
         // MEMBER: Juvineth O. MALINAO
        // This program helps users find the meaning of Bisaya agriculture terms

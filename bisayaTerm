@@ -160,3 +160,14 @@ public String normalizeInput(String input) {
 
     return input.substring(0, 1).toUpperCase() + input.substring(1);
 }
+/*
+  Charity S. Sisles 
+  This method used to display(print) all the dictionary terms and their meaning stored from data[31]to data[35]
+
+ */
+
+ public static void displayData(String[] data) {
+    for (int i = 31; i <= 35; i++) {
+        System.out.println(data[i]);
+    }
+}

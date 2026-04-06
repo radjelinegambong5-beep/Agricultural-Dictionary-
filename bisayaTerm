@@ -204,6 +204,20 @@ return Character.isUpperCase(input.charAt(0));
    public static void displayGroup2(String[] data) {
     for (int i = 41; i <= 45; i++) {
         System.out.println(data[i]);
+/*
+  Rochelle A. Vibora
+  This method is used to display all the agriculture terms stored in the dictionary.
+*/
+public void displayAllTerms() {
+    System.out.println("===== TANAN NGA TERMS =====");
+    
+    for (int i = 0; i < count; i++) {
+        if (data[i] != null) {
+            String[] parts = data[i].split(":", 2);
+            System.out.println(parts[0]);
+        }
+    }
+}
     }
 }
    // MEMBER: Jessa B.Torion and Chloe Jane Montanez

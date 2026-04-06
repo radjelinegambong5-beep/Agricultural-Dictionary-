@@ -181,7 +181,7 @@ public static boolean isLettersOnly(String input) {
     return input != null && input.matches("[a-zA-Z ]+");
 }
 
-Kimberly L. Mass
+  Kimberly L. Mass
   This method checks if the input string contains only letters (a-z or A-Z).
  */
 public static boolean isValidWord(String input) {

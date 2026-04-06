@@ -196,6 +196,16 @@ Kimberly L. Mass
 public static boolean isValidWord(String input) {
   return input.matches("[a-zA-Z]+");
 }
+
+ /* 
+  Alexa Leanne T. Alcantara 
+    This method used to display or print the agricultural terms (data[41] to data[45]) on the screen.
+   */ 
+   public static void displayGroup2(String[] data) {
+    for (int i = 41; i <= 45; i++) {
+        System.out.println(data[i]);
+    }
+}
    // MEMBER: Jessa B.Torion and Chloe Jane Montanez
 
 public void runProgram() {

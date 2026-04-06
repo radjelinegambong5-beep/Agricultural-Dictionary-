@@ -300,12 +300,6 @@ public void suggestWords(String input) {
         System.out.println("Walay similar nga words.");
     }
 }
- /*  
-      Ashlee Shane A. Jayme
-      This code adds agriculture Bisaya terms and their definitions to the dictionary array.
-      */
-      
-      public void showMeaning (String term) {
 }
 
 // MEMBER: Jessa B.Torion and Chloe Jane Montanez

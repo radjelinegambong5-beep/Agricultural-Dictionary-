@@ -376,16 +376,6 @@ public void runProgram() {
             suggestWords(input);
         }
 
-        // OPTIONAL DISPLAY METHODS 
-        System.out.println("\n--- Sample Display ---");
-        displayData1(data);
-        displayGroup2(data);
-        displayGroup3WithNumbers(data);
-
-        // OPTIONAL EXTRA METHODS
-        System.out.println("\n--- Extra Data ---");
-        showData(data);
-        displayData2(data);
     }
 
     sc.close();

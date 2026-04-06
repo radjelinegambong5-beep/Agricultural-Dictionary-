@@ -172,3 +172,12 @@ public String normalizeInput(String input) {
         System.out.println(data[i]);
     }
 }
+
+/*
+ Regene P. Pacio
+ This method checks if the input contains only letters (no numbers or special characters);
+ 
+*/
+public static boolean isLettersOnly(String input) {
+    return input != null && input.matches("[a-zA-Z ]+");
+}

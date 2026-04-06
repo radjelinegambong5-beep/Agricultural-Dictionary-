@@ -159,7 +159,7 @@ public String normalizeInput(String input) {
   Charity S. Sisles 
   This method used to display(print) all the dictionary terms and their meaning stored from data[31]to data[35]
  */
- public static void displayData(String[] data) {
+ public static void displayData1(String[] data) {
     for (int i = 31; i <= 35; i++) {
         System.out.println(data[i]);
     }
@@ -203,23 +203,23 @@ public static void displayGroup3WithNumbers(String[] data) {
    public static void displayGroup2(String[] data) {
     for (int i = 41; i <= 45; i++) {
                  System.out.println(data[i]);
-     }    
+     
+}    
+
 /*
   Rochelle A. Vibora
   This method is used to display all the agriculture terms stored in the dictionary.
 */
 public void displayAllTerms() {
     System.out.println("===== TANAN NGA TERMS =====");
-    
+
     for (int i = 0; i < count; i++) {
         if (data[i] != null) {
             String[] parts = data[i].split(":", 2);
             System.out.println(parts[0]);
         }
     }
-}
-    }
-}
+
 /*Sumayyah T. Jose
  This method searches for Bisaya agri terms
 */
@@ -232,7 +232,7 @@ public void displayAllTerms() {
 Aliza J. Juban
 This method used to display or print the the bisaya dictionary terms from data [41] to [45]
 */
-public static void displayData(String[] data) {
+public static void displayData2(String[] data) {
     for (int i = 76; i <= 80; i++) {
         System.out.println(data[i]);
     }
@@ -245,6 +245,7 @@ public static void showData(String[] data) {
     for (int i = 71; i <= 75; i++) {
         System.out.println(data[i]);
     }
+}
 /*
 May Morales
 This method checks if the input ends with a period (.).
@@ -281,6 +282,13 @@ public void suggestWords(String input) {
     if (!hasSuggestion) {
         System.out.println("Walay similar nga words.");
     }
+}
+ /*  
+      Ashlee Shane A. Jayme
+      This code adds agriculture Bisaya terms and their definitions to the dictionary array.
+      */
+      
+      public void showMeaning (String term) {
 }
 
 // MEMBER: Jessa B.Torion and Chloe Jane Montanez

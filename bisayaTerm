@@ -219,6 +219,23 @@ public void displayAllTerms() {
             System.out.println(parts[0]);
         }
     }
+}
+/*
+  Ashlee Shane A. Jayme
+  This method searches the whole dictionary and returns
+  the definition of the term if it exists.
+*/
+public String getDefinition(String input) {
+    for (int i = 0; i < count; i++) {
+        if (data[i] != null) {
+            String[] parts = data[i].split(":", 2);
+            if (parts[0].equalsIgnoreCase(input)) {
+                return parts[1].trim();
+            }
+        }
+    }
+    return "Wala pa na dria nabutang bay.,. Salamat ha!";
+}
 
 /*Sumayyah T. Jose
  This method searches for Bisaya agri terms

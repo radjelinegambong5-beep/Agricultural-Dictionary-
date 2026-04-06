@@ -128,7 +128,6 @@ This method is used to checks if the user input is empty.
   /*
    Janah Nicole M. Tayag
 This method checks if a string contains at least one number. 
-
  */
        // Check if input contains numbers
 public static boolean hasNumbers(String input) {
@@ -143,13 +142,10 @@ and tells the program if the input is invalid.
 public static boolean hasSpecialChars(String input) {
     return !input.matches("[a-zA-Z ]+");
 }
-
-
 /*
   Chloe Jane M. Montañez
   This method used to fix the user input by removing spaces and correcting the letters.
 */
-
 public String normalizeInput(String input) {
     input = input.trim().toLowerCase();
 
@@ -159,35 +155,29 @@ public String normalizeInput(String input) {
 
     return input.substring(0, 1).toUpperCase() + input.substring(1);
 }
-
 /*
   Charity S. Sisles 
   This method used to display(print) all the dictionary terms and their meaning stored from data[31]to data[35]
-
  */
-
  public static void displayData(String[] data) {
     for (int i = 31; i <= 35; i++) {
         System.out.println(data[i]);
     }
 }
-
 /*
  Regene P. Pacio
  This method checks if the input contains only letters (no numbers or special characters);
- 
 */
 public static boolean isLettersOnly(String input) {
     return input != null && input.matches("[a-zA-Z ]+");
 }
-
+/*
   Kimberly L. Mass
   This method checks if the input string contains only letters (a-z or A-Z).
  */
 public static boolean isValidWord(String input) {
   return input.matches("[a-zA-Z]+");
 }
-
 /*
 Katherine A. Tigoy
 This method check if input starts with capital letter
@@ -196,7 +186,16 @@ This method check if input starts with capital letter
 return Character.isUpperCase(input.charAt(0));
 ‎}
 /*
-
+Jonna Mae Arnado 
+This method is used to display (print) the data from index 56 to 60 with numbering.
+*/
+public static void displayGroup3WithNumbers(String[] data) {
+    int count = 1;
+    for (int i = 56; i <= 60; i++) {
+        System.out.println(count + ". " + data[i]);
+        count++;
+    }
+}
  /* 
   Alexa Leanne T. Alcantara 
     This method used to display or print the agricultural terms (data[41] to data[45]) on the screen.
@@ -204,7 +203,8 @@ return Character.isUpperCase(input.charAt(0));
    public static void displayGroup2(String[] data) {
     for (int i = 41; i <= 45; i++) {
                  System.out.println(data[i]);
-         /*
+     }    
+/*
   Rochelle A. Vibora
   This method is used to display all the agriculture terms stored in the dictionary.
 */
@@ -220,16 +220,16 @@ public void displayAllTerms() {
 }
     }
 }
-//Sumayyah T. Jose
+/*Sumayyah T. Jose
+ This method searches for Bisaya agri terms
+*/
       public static void main(String[] args) {
         BisayaAgriDictionary dictionary = new BisayaAgriDictionary();
         dictionary.loadData();
-        dictionary.searchTerm();   // This method searches for Bisaya agri terms
+        dictionary.searchTerm();  
     }
-
  /* 
 Aliza J. Juban
-
 This method used to display or print the the bisaya dictionary terms from data [41] to [45]
 */
 public static void displayData(String[] data) {
@@ -245,8 +245,10 @@ public static void showData(String[] data) {
     for (int i = 71; i <= 75; i++) {
         System.out.println(data[i]);
     }
-// May Morales
-// This method checks if the input ends with a period (.).
+/*
+May Morales
+This method checks if the input ends with a period (.).
+*/
 public static boolean endsWithPeriod(String input) {
     if (input == null || input.isEmpty()) {
         return false;
@@ -254,6 +256,33 @@ public static boolean endsWithPeriod(String input) {
     
     return input.endsWith(".");
 }
+/*
+// Princess Joanne I. Wee
+ this method suggests possible bisaya agriculture terms based on the user’s partial input.
+*/
+public void suggestWords(String input) {
+    input = input.trim().toLowerCase();
+    boolean hasSuggestion = false;
+
+    System.out.println("Mga posibleng words:");
+
+    for (int i = 0; i < count; i++) {
+        if (data[i] != null) {
+            String[] parts = data[i].split(":", 2);
+            String word = parts[0].toLowerCase();
+
+            if (word.startsWith(input)) {
+                System.out.println("- " + parts[0]);
+                hasSuggestion = true;
+            }
+        }
+    }
+
+    if (!hasSuggestion) {
+        System.out.println("Walay similar nga words.");
+    }
+}
+
 // MEMBER: Jessa B.Torion and Chloe Jane Montanez
 
 public void runProgram() {

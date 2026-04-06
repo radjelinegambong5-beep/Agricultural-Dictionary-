@@ -202,7 +202,7 @@ public void runProgram() {
     Scanner sc = new Scanner(System.in);
     loadData();  // Load all dictionary data
 
-    System.out.println("Bisaya Agriculture Dictionary");
+    System.out.println("=====Bisaya Agriculture Dictionary=====");
     System.out.println("Type 'exit' to quit.");
 
     while (true) {

@@ -107,7 +107,6 @@ public class BisayaAgriDictionary {
         data[83] = "Pagpili og Binhi: Pagpili sa maayong klase sa liso aron taas ang ani";
         data[84] = "Pagbantay sa Tanom: Pagmonitor sa kahimtang sa tanom aron malikayan ang sait";
         data[85] = "Pagtipig sa Ani: Husto nga pag-imbak sa ani aron dili madaot";
- 
 }
    /*
     Radjeline Gambong.
@@ -117,6 +116,7 @@ public class BisayaAgriDictionary {
   System.out.print("Palihug kog type ug usab");
 } 
 
+
   /*
    Juvineth Malinao
 This method is used to checks if the user input is empty.
@@ -125,7 +125,9 @@ This method is used to checks if the user input is empty.
       public static boolean isEmptyInput(String input) {
  return input == null || input.trim().isEmpty();
 }
-  /*
+ 
+
+/*
    Janah Nicole M. Tayag
 This method checks if a string contains at least one number. 
  */
@@ -240,11 +242,18 @@ public String getDefinition(String input) {
 /*Sumayyah T. Jose
  This method searches for Bisaya agri terms
 */
-      public static void main(String[] args) {
-        BisayaAgriDictionary dictionary = new BisayaAgriDictionary();
-        dictionary.loadData();
-        dictionary.searchTerm();  
-    }
+  public void searchTerm() {
+    Scanner sc = new Scanner(System.in);
+    loadData();
+
+    System.out.print("Ibutang ang term: ");
+    String input = sc.nextLine();
+
+    String result = getDefinition(input);
+    System.out.println(result);
+
+    sc.close();
+}
  /* 
 Aliza J. Juban
 This method used to display or print the the bisaya dictionary terms from data [41] to [45]
@@ -306,7 +315,7 @@ public void suggestWords(String input) {
 
 public void runProgram() {
     Scanner sc = new Scanner(System.in);
-    loadData(); // siguradong loaded ang data
+    loadData(); 
 
     System.out.println("===== Bisaya Agriculture Dictionary =====");
     System.out.println("Type 'exit' to quit.");
@@ -363,11 +372,11 @@ public void runProgram() {
         } else {
             System.out.println(result);
 
-            // SUGGEST WORDS METHOD
+            
             suggestWords(input);
         }
 
-        // OPTIONAL DISPLAY METHODS (para magamit sila)
+        // OPTIONAL DISPLAY METHODS 
         System.out.println("\n--- Sample Display ---");
         displayData1(data);
         displayGroup2(data);
@@ -380,4 +389,10 @@ public void runProgram() {
     }
 
     sc.close();
+}
+
+public static void main(String[] args) {
+    BisayaAgriDictionary obj = new BisayaAgriDictionary();
+    obj.runProgram();
+}
 }

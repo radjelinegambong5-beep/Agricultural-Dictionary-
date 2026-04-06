@@ -203,8 +203,8 @@ return Character.isUpperCase(input.charAt(0));
    */ 
    public static void displayGroup2(String[] data) {
     for (int i = 41; i <= 45; i++) {
-        System.out.println(data[i]);
-/*
+                 System.out.println(data[i]);
+         /*
   Rochelle A. Vibora
   This method is used to display all the agriculture terms stored in the dictionary.
 */
@@ -220,7 +220,41 @@ public void displayAllTerms() {
 }
     }
 }
-   // MEMBER: Jessa B.Torion and Chloe Jane Montanez
+//Sumayyah T. Jose
+      public static void main(String[] args) {
+        BisayaAgriDictionary dictionary = new BisayaAgriDictionary();
+        dictionary.loadData();
+        dictionary.searchTerm();   // This method searches for Bisaya agri terms
+    }
+
+ /* 
+Aliza J. Juban
+
+This method used to display or print the the bisaya dictionary terms from data [41] to [45]
+*/
+public static void displayData(String[] data) {
+    for (int i = 76; i <= 80; i++) {
+        System.out.println(data[i]);
+    }
+}
+/*
+Nelly Jean M. Quiamco
+This method is used to display or print specific elements of an array.
+*/
+public static void showData(String[] data) {
+    for (int i = 71; i <= 75; i++) {
+        System.out.println(data[i]);
+    }
+// May Morales
+// This method checks if the input ends with a period (.).
+public static boolean endsWithPeriod(String input) {
+    if (input == null || input.isEmpty()) {
+        return false;
+    }
+    
+    return input.endsWith(".");
+}
+// MEMBER: Jessa B.Torion and Chloe Jane Montanez
 
 public void runProgram() {
     Scanner sc = new Scanner(System.in);

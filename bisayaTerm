@@ -137,10 +137,8 @@ public static boolean hasNumbers(String input) {
 
  /*
    Kriszia Grace G. Gallego
- /*
 This method is used to check if the user input contains special characters 
 and tells the program if the input is invalid.
-
 */
 public static boolean hasSpecialChars(String input) {
     return !input.matches("[a-zA-Z ]+");
@@ -187,7 +185,6 @@ public static boolean isLettersOnly(String input) {
 /*
 Katherine A. Tigoy
 This method check if input starts with capital letter
-
 */
 ‎public static boolean startsWithCapital(String input) {
 ‎    return Character.isUpperCase(input.charAt(0));

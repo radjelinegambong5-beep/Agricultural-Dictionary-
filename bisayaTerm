@@ -40,7 +40,8 @@ public class BisayaAgriDictionary {
         data[16]= "Binhi: liso nga itanom para mutubo nga tanom";
         data[17]= "Uma: yuta nga gigamit sa pagpanguma";
         data[18]= "Araro: gamit sa pag-andam sa yuta sa uma";
-        data[19]= "Irigasyon: sistema sa paghatag ug tubig sa tanom";data[20]= "Bugas: Niluto o hilaw nga liso sa humay.";
+        data[19]= "Irigasyon: sistema sa paghatag ug tubig sa tanom";
+        data[20]= "Bugas: Niluto o hilaw nga liso sa humay.";
         data[21]= "Daro: Usa ka himan sa pag-uma nga giguyod sa kabaw aron pag-ugkat sa yuta.";
         data[22]= "Huna: Ang pagpugas og mga liso sa yuta.";
         data[23]= "Kabaw: Mananap nga makatabang sa mag-uuma sa pagdaro.";

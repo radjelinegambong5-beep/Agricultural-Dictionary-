@@ -199,45 +199,79 @@ public static boolean isValidWord(String input) {
    // MEMBER: Jessa B.Torion and Chloe Jane Montanez
 
 public void runProgram() {
-        Scanner sc = new Scanner(System.in);
-        loadData();
+    Scanner sc = new Scanner(System.in);
+    loadData();  // Load all dictionary data
 
-        System.out.println("Bisaya Agriculture Dictionary");
-        System.out.println("Type 'exit' to quit.");
+    System.out.println("Bisaya Agriculture Dictionary");
+    System.out.println("Type 'exit' to quit.");
 
-        while (true) {
-            System.out.print("Ibutang ang term: ");
-            String input = sc.nextLine().trim();
+    while (true) {
+        System.out.print("Ibutang ang term: ");
+        String input = sc.nextLine().trim();
 
-            if (input.equalsIgnoreCase("exit")) {
-                System.out.println("Salamat sa paggamit sa dictionary! Bye!");
-                break;
-            }
+      
+        if (input.equalsIgnoreCase("exit")) {
+            System.out.println("Salamat sa paggamit sa dictionary! Bye!");
+            break;
+        }
 
-            boolean found = false;
+        
+        input = normalizeInput(input);
 
-            for (int i = 0; i < count; i++) {
-                if (data[i] != null) {
-                    String[] parts = data[i].split(":", 2);
-                    if (parts[0].equalsIgnoreCase(input)) {
-                        System.out.println(parts[1].trim());
-                        found = true;
-                        break;
-                    }
+        
+        if (isEmptyInput(input)) {
+            retryMessage();
+            System.out.println();
+            continue;
+        }
+
+        if (hasNumbers(input)) {
+            System.out.println("Dili pwede naay numero!");
+            continue;
+        }
+
+        if (hasSpecialChars(input)) {
+            System.out.println("Dili pwede naay special characters!");
+            continue;
+        }
+
+        if (!isLettersOnly(input)) {
+            System.out.println("Letters only lang!");
+            continue;
+        }
+
+        if (!startWithCapital(input)) {
+            System.out.println("Dapat mag sugod ug capital letter!");
+            continue;
+        }
+
+        if (!isValidWord(input)) {
+            System.out.println("Invalid word format!");
+            continue;
+        }
+
+        
+        boolean found = false;
+        for (int i = 0; i < count; i++) {
+            if (data[i] != null) {
+                String[] parts = data[i].split(":", 2);
+                if (parts[0].equalsIgnoreCase(input)) {
+                    System.out.println(parts[1].trim());
+                    found = true;
+                    break;
                 }
-            }
-
-            if (!found) {
-                System.out.println("Wala pa na dria nabutang bay.,. Salamat ha!");
             }
         }
 
-        sc.close();
+        if (!found) {
+            System.out.println("Wala pa na dria nabutang bay.,. Salamat ha!");
+        }
     }
 
-    public static void main(String[] args) {
-        BisayaAgriDictionary obj = new BisayaAgriDictionary();
-        obj.runProgram();
-    }
+    sc.close();
 }
-    
+
+public static void main(String[] args) {
+    BisayaAgriDictionary obj = new BisayaAgriDictionary();
+    obj.runProgram();
+}}

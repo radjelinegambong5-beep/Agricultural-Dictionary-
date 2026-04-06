@@ -111,7 +111,7 @@ public class BisayaAgriDictionary {
    /*
     Radjeline Gambong.
  This method is used to display a message that tells the user to try again when the input is invalid or incorrect.
-/*
+*/
       public static void retryMessage(){
   System.out.print("Palihug kog type ug usab");
 } 
@@ -120,7 +120,7 @@ public class BisayaAgriDictionary {
    Juvineth Malinao
 This method is used to checks if the user input is empty.
 
-/*
+*/
       public static boolean isEmptyInput(String input) {
  return input == null || input.trim().isEmpty();
 }
@@ -128,7 +128,7 @@ This method is used to checks if the user input is empty.
    Janah Nicole M. Tayag
 This method checks if a string contains at least one number. 
 
- /*
+ */
        // Check if input contains numbers
 public static boolean hasNumbers(String input) {
     return input.matches(".*\\d.*");

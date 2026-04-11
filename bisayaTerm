@@ -312,18 +312,27 @@ public void suggestWords(String input) {
 }
 //Member:Jessa Torion
 // This method counts how many times a term appears (multiple definitions)
-    public int countDefinitions(String term) {
-        int total = 0;
+   public int countDefinitions(String term) {
+    int total = 0;
 
-        for (int i = 0; i < count; i++) {
-            String[] parts = agriDictionary[i].split(":");
+    for (int i = 0; i < count; i++) {
+        if (data[i] != null) {
+            String[] parts = data[i].split(":", 2);
 
             if (parts[0].equalsIgnoreCase(term)) {
                 total++;
             }
         }
+    }
 
+    return total;
+}
+        
 
+//Radjeline Gambong
+// Purpose: This method runs the main program. It takes user input,
+// validates it, searches the term, shows the definition,
+// suggests similar words if not found, and allows the user to exit.
 public void runProgram() {
     Scanner sc = new Scanner(System.in);
     loadData(); 
